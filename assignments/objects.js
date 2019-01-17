@@ -98,19 +98,19 @@ const parent = {
     name: 'Susan',
     age: 70,
     speak: function() {
-    console.log( "Hello, my name is Susan!");
+    console.log( `Hello, my name is ${this.name}`);
    }, 
     child: {
      name: 'George',
      age: 50,
      speak: function() {
-     console.log( "Hello, my name is George!");
+     console.log( `Hello, my name is ${this.name}`);
     },
      grandchild: {
        name: 'Sam',
        age: 30,
        speak: function() {
-       console.log( "Hello, my name is Sam");
+       console.log(`Hello, my name is ${this.name}`);
       }
      }
     }
